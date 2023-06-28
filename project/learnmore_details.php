@@ -1,0 +1,49 @@
+<?php
+    $name=$_SESSION['name'];
+    $servername='localhost:3306';
+    $username='root';
+    $password='';
+    $dbname='SKYTECH';
+    $conn=mysqli_connect($servername,$username,$password,$dbname);
+    $product_img_path=$_POST['productImg'];
+    $product=$_POST['productNameInSmallLetters'];
+    $product_name=$_POST['productName'];
+    $present_rate=$_POST['presentRate'];
+    $past_rate=$_POST['pastRate'];
+    $howmuchoff=$_POST['howMuchOff'];
+    $first_offer=$_POST['firstOffer'];
+    $second_offer=$_POST['secondOffer'];
+    $third_offer=$_POST['thirdOffer'];
+    $fourth_offer=$_POST['fourthOffer'];
+    $brand_img=$_POST['brandImg'];
+    $warrenty=$_POST['warrenty'];
+    $first_highlight=$_POST['firstHighlight'];
+    $second_highlight=$_POST['secondHighlight'];
+    $third_highlight=$_POST['thirdtHighlight'];
+    $fourth_highlight=$_POST['fourthHighlight'];
+    $fifth_highlight=$_POST['fifthHighlight'];
+    $description=$_POST['description'];
+    $p_description1_img=$_POST['pDescription1Img'];
+    $p_description1_heading=$_POST['pDescription1Heading'];
+    $p_description1=$_POST['pDescription1'];
+    $p_description2_img=$_POST['pDescription2Img'];
+    $p_description2_heading=$_POST['pDescription2Heading'];
+    $p_description2=$_POST['pDescription2'];
+    $p_description3_img=$_POST['pDescription3Img'];
+    $p_description3_heading=$_POST['pDescription3Heading'];
+    $p_description3=$_POST['pDescription3'];
+    $p_description4_img=$_POST['pDescription4Img'];
+    $p_description4_heading=$_POST['pDescription4Heading'];
+    $p_description4=$_POST['pDescription4'];
+    $p_description5_img=$_POST['pDescription5Img'];
+    $p_description5_heading=$_POST['pDescription5Heading'];
+    $p_description5=$_POST['pDescription5'];
+    $p_description6_img=$_POST['pDescription6Img'];
+    $p_description6_heading=$_POST['pDescription6Heading'];
+    $p_description6=$_POST['pDescription6'];
+    $sql="insert into learnmore values('$product_img_path','$product','$product_name','$present_rate','$past_rate','$howmuchoff','$first_offer','$second_offer','$third_offer','$fourth_offer','$brand_img','$warrenty','$first_highlight','$second_highlight','$third_highlight','$fourth_highlight','$fifth_highlight','$description','$p_description1_img','$p_description1_heading','$p_description1','$p_description2_img','$p_description2_heading','$p_description2','$p_description3_img','$p_description3_heading','$p_description3','$p_description4_img','$p_description4_heading','$p_description4','$p_description5_img','$p_description5_heading','$p_description5','$p_description6_img','$p_description6_heading','$p_description6')";
+    $result=mysqli_query($conn,$sql);
+    header('location: learnmore_details.html');
+    
+
+?>

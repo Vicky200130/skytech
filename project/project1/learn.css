@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.split {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color:white;
+    background-size: cover;
+    top: 10;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.brand-name{
+    color:#0C1A54;
+    font-weight:700;
+    font-family:"Roboto";
+    margin-top:12vh;
+    padding-top:10px;
+
+}
+.brand-offer-price{
+    font-size:32px;
+    font-weight:bold;
+}
+.brand-actual-price{
+    font-size:14px;
+    text-decoration: line-through;
+}
+.offers-space{
+    font-family:"Roboto";
+    font-size :14px;
+    font-weight:700;
+}
+.brand-logo{
+    height:30px;
+    width:30px;
+}
+.warrenty-section{
+    border:1px solid black;
+}
+.table_heading{
+    width:10vw;
+}
+.pd-card-heading{
+    font-size:18px;
+    font-family: "Roboto";
+}
+.learn-more-buttons {
+    width:150px;
+}
+.table_heading {
+    color:#0C1A54;
+    font-family:"Roboto";
+}
+li{
+    color:#384640;
+    font-family:"Roboto";
+}
+.paragraph-description{
+    color:#384640;
+    font-family: "Roboto";
+
+}
+.pd-heading{
+    color:#0C1A54;
+    font-weight:700;
+    font-family:"Roboto";
+    font-size:22px;   
+}
+.carouselExampleIndicators{
+    height:100vh;
+    width:100%;
+}
+.side-image{
+    width:85%;
+    height:60vh;
+}
+.pd-card-heading{
+    color:#0C1A54;
+    font-family:"Roboto";
+    font-size:18px;
+    font-weight:700;
+}
+.pd-card-description{
+    color:#5a7184;
+    font-size:14px;
+}
+.box{
+    height:10vh;
+    width:100%;
+}
+.fixed_box{
+    padding-top: 15vh;
+}
+.learn_more_section{
+    margin-top: 10vh;
+}
+
+.mobile_show{
+    margin-top:10vh;
+}
+.vivo-v21-image{
+    width:40% !important;
+}
+.vivo-v25-pro-image{
+    width: 60% !important;
+}
+.vivo-x80-pro-image{
+    width: 70%!important;
+}
+.vivo-x60-pro-image{
+    width:30% !important;
+}
+.vivo-x80-image{
+    width:63% !important;
+}

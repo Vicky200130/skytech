@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.log-in-background-image-container{
+    background-image: url("login-image1.jpg");
+    background-size: cover;
+    height:97vh;
+    border-radius: 25px;
+    border:10px white solid;
+
+}
+input[type="text"],
+input[type="password"]{
+    height:40px;
+    margin:20px;
+    border-radius: 3px;
+    border-width: 3px;
+    border-color: #00AEDF;
+    border-style: solid;
+    text-align: center;
+}
+input[type="text"]:hover,
+input[type="password"]:hover{
+    border-radius: 2px;
+    border-width:2px;
+    transform: scale(0.9);
+    border-color: #E29CB4;
+}
+.log-in-box{
+    border-radius:25px;
+    border-width: 5px;
+    border-color: #00AEDF;
+    border-style: solid;
+}
+.log-in-button{
+    text-align: center;
+}
+.log-in-btn{
+    width:50%;
+    border-radius: 30px;
+    color:white;
+    font-family: "Roboto";
+    font-weight:700;
+}
+.log-in-btn:hover{
+    transform: scale(0.9);
+    color:#00AEDF;
+    border-color: #00AEDF;
+    background-color: white;
+    border-width:3px;
+}
+.signup-text{
+    text-align: center;
+    font-family:"Roboto";
+}
+.signup-link{
+    text-decoration: none;
+}
+.signup-link:hover{
+    transform:scale(0.9);
+}
+.brand-name{
+    font-family:"Roboto";
+    font-size:26px;
+    font-weight:700;
+    text-align: center;
+    color:#034687;
+}
+.log-in-box:hover{
+    transform: scale(1.1);
+}
+.background_color{
+    background-color:whitesmoke;
+    background-size: cover;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="learnmore_details.php" method="post">
+        <p>product img path: <input type="text" name="productImg" id=""></p>
+        <p>product name in small letters: <input type="text" name="productNameInSmallLetters"></p>
+        <p>product name that You want to disply like: <input type="text" name="productName"></p>
+        <p>presenet rate: <input type="text" name="presentRate"></p>
+        <p>past rate: <input type="text" name="pastRate" id=""></p>
+        <p>how much off: <input type="text" name="howMuchOff" id=""></p>
+        <p>first offer: <input type="text" name="firstOffer" id=""></p>
+        <p>secon offer: <input type="text" name="secondOffer" id=""></p>
+        <p>third offer: <input type="text" name="thirdOffer" id=""></p>
+        <p>fourth offer: <input type="text" name="fourthOffer" id=""></p>
+        <p>brand img path: <input type="text" name="brandImg" id=""></p>
+        <p>Warrenty: <input type="text" name="warrenty" id=""></p>
+        <p> first high light:</p><textarea name="firstHighlight" id="" cols="30" rows="10"></textarea><br>
+        <p>second high light:</p><textarea name="secondHighlight" id="" cols="30" rows="10"></textarea><br>
+        <p>third high light:</p><textarea name="thirdHighlight" id="" cols="30" rows="10"></textarea><br>
+        <p>fourth high light:</p><textarea name="fourthHighlight" id="" cols="30" rows="10"></textarea><br>
+        <p>fifth high light:</p><textarea name="fifthHighlight" id="" cols="30" rows="10"></textarea><br>
+        <p>description:</p><textarea name="description" id="" cols="30" rows="10"></textarea><br>
+        <p>product description-1 img: <input type="text" name="pDescription1Img" id=""></p>
+        <p>p description-1 heading:</p><textarea name="pDescription1Heading" id="" cols="30" rows="10"></textarea><br>
+        <p>Product description1:</p><textarea name="pDescription1" id="" cols="30" rows="10"></textarea><br>
+        <p>product description-2 img: <input type="text" name="pDescription2Img" id=""></p>
+        <p>p description-2 heading:</p><textarea name="pDescription2Heading" id="" cols="30" rows="10"></textarea><br>
+        <p>Product description2:</p><textarea name="pDescription2" id="" cols="30" rows="10"></textarea><br>
+        <p>product description-3 img: <input type="text" name="pDescription3Img" id=""></p>
+        <p>p description-3 heading:</p><textarea name="pDescription3Heading" id="" cols="30" rows="10"></textarea><br>
+        <p>Product description3:</p><textarea name="pDescription3" id="" cols="30" rows="10"></textarea><br>
+        <p>product description-4 img: <input type="text" name="pDescription4Img" id=""></p>
+        <p>p description-4 heading:</p><textarea name="pDescription4Heading" id="" cols="30" rows="10"></textarea><br>
+        <p>Product description4:</p><textarea name="pDescription4" id="" cols="30" rows="10"></textarea><br>
+        <p>product description-5 img: <input type="text" name="pDescription5Img" id=""></p>
+        <p>p description-5 heading:</p><textarea name="pDescription5Heading" id="" cols="30" rows="10"></textarea><br>
+        <p>Product description5:</p><textarea name="pDescription5" id="" cols="30" rows="10"></textarea><br>
+        <p>product description-6 img: <input type="text" name="pDescription6Img" id=""></p>
+        <p>p description-6 heading:</p><textarea name="pDescription6Heading" id="" cols="30" rows="10"></textarea><br>
+        <p>Product description6:</p><textarea name="pDescription6" id="" cols="30" rows="10"></textarea><br>
+        <button type="submit">submit</button>
+
+    </form>
+</body>
+</html>
+<?php
+//$name=$_SESSION['name'];
+$servername='localhost:3306';
+$username='root';
+$password='';
+$dbname='SKYTECH';
+$conn=mysqli_connect($servername,$username,$password,$dbname);
+$thing=$_GET['product'];
+$sql="select * from learnmore where product='$thing'";
+$result=mysqli_query($conn,$sql);
+while($row=mysqli_fetch_assoc($result)){
+    $product_img_path=$row['product_img_path'];
+    $product=$row['product'];
+    $product_name=$row['product_name'];
+    $present_rate=$row['present_rate'];
+    $past_rate=$row['past_rate'];
+    $howmuch_off=$row['howmuch_off'];
+    $first_offer=$row['first_offer'];
+    $second_offer=$row['second_offer'];
+    $third_offer=$row['third_offer'];
+    $fourth_offer=$row['fourth_offer'];
+    $brand_img_path=$row['brand_img_path'];
+    $warrenty=$row['warrenty'];
+    $first_heighlight=$row['first_heighlight'];
+    $second_heighlight=$row['second_heighlight'];
+    $third_heighlight=$row['third_heighlight'];
+    $fourth_heighlight=$row['fourth_heighlight'];
+    $fifth_heighlight=$row['fifth_heighlight'];
+    $description=$row['description'];
+    $p_description1_img=$row['p_description1_img'];
+    $p_description1_heading=$row['p_description1_heading'];
+    $p_description1=$row['p_description1'];
+    $p_description2_img=$row['p_description2_img'];
+    $p_description2_heading=$row['p_description2_heading'];
+    $p_description2=$row['p_description2'];
+    $p_description3_img=$row['p_description3_img'];
+    $p_description3_heading=$row['p_description3_heading'];
+    $p_description3=$row['p_description3'];
+    $p_description4_img=$row['p_description4_img'];
+    $p_description4_heading=$row['p_description4_heading'];
+    $p_description4=$row['p_description4'];
+    $p_description5_img=$row['p_description5_img'];
+    $p_description5_heading=$row['p_description5_heading'];
+    $p_description5=$row['p_description5'];
+    $p_description6_img=$row['p_description6_img'];
+    $p_description6_heading=$row['p_description6_heading'];
+    $p_description6=$row['p_description6'];
+
+    
+}
+?>

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+
+
+.footer-section {
+    background-color: #19232d;
+    font-family: "roboto";
+    color: #959ead;
+    height:100vh;
+}
+.mobile-section{
+    background-color: whitesmoke;
+}
+.footer-image {
+    height:10vh;
+    width: auto;
+}
+
+.icon {
+    color: #959ead;
+    font-size: 24px;
+}
+
+.icon-style {
+    background-color: #424244;
+    height: 50px;
+    width: 50px;
+    padding-top: 13px;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+
+.footer-description {
+    color: #959ead;
+    font-size: 16px;
+}
+
+.contact-us {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.icon-description {
+    font-size: 18px;
+}
+
+.let-us-help-you {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.let-us-help-description {
+    font-size: 20px;
+}
+
+.hr-line {
+    background-color: #5a7184;
+}

@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.project-heading{
+    font-family:"Roboto";
+    font-size:24px;
+    font-weight: 900;
+    color:#ffffff !important;
+}
+.home-logo{
+    height:10vh;
+    width: auto;
+}
+.home-heading{
+    font-size:28px;
+    font-weight:700;
+    font-family:"Roboto";
+    color:#0f0e46;
+
+}
+
+.home-brand-heading{
+    color:#183b56;
+    font-size:22px;
+    font-family: "Roboto";
+    font-weight:700;
+
+}
+.home-brand-description{
+    color:#5a7184;
+    font-size:16px;
+}
+.home-brand-button{
+    text-align: right;
+}
+.footer-section {
+    background-color: #19232d;
+    font-family: "roboto";
+    color: #959ead;
+}
+.mobile-section{
+    background-color: whitesmoke;
+}
+.footer-image {
+    height:10vh;
+    width: auto;
+}
+
+.icon {
+    color: #959ead;
+    font-size: 24px;
+}
+
+.icon-style {
+    background-color: #424244;
+    height: 50px;
+    width: 50px;
+    padding-top: 13px;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+
+.footer-description {
+    color: #959ead;
+    font-size: 16px;
+}
+
+.contact-us {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.icon-description {
+    font-size: 18px;
+}
+
+.let-us-help-you {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.let-us-help-description {
+    font-size: 20px;
+}
+
+.hr-line {
+    background-color: #5a7184;
+}
+.profile-image{
+    height:10vh;
+    width:auto;
+    border:2px solid white;
+    border-radius:36px;
+}
+
+
+.mobile-card-heading{
+    color:#183b56;
+    font-size:24px;
+    font-family: "Roboto";
+    font-weight:700;
+
+}
+.mobile-card{
+    text-align:center;
+}
+.mobile-card-bottom-heading{
+    color:#1f2933;
+    font-size:18px;
+    text-align: start;
+    font-weight:700;
+}
+.mobile-key-features{
+    text-align:left;
+    color:#323f4b;
+    font-size:14px;
+    font-weight:700;
+
+}
+.buy-now-button{
+    width:100%;
+    background-color: white;
+    border-radius:25px;
+    color:black;
+    font-weight:700;
+    font-family:"Roboto";
+    border:2px black solid;
+
+}
+.buy-now-button:hover{
+    background-color:black;
+    color:white;
+}
+
+.mobile-key-features{
+    height:15vh;
+}
+.Galaxy-Z{
+    background-color: whitesmoke;
+
+}
+.mobile-card{
+    background-color: white;
+}
+.mobile-card:hover{
+    transform: scale(1.1);
+}
+.home-brand-card:hover{
+    transform: scale(1.1);
+}
+.BRDcum-margin{
+    margin-top:15vh;
+}
+.vivo-y53s-home-image{
+    width:23% !important;
+}
+.vivo-y53s-image {
+    width:52% !important;
+}
+.vivo-y35-main-image{
+    width:39% !important;
+}
+
+.carousel-image{
+    height:80vh;
+    width:100%;
+}
+.home-image{
+    height:35vh;
+    width:100%;
+}
+.accessories_bg_color{
+    background-color:whitesmoke;
+}
+.carousel-image-acess{
+    height:35vh;
+    width:50%;
+}
+.accessories-card-button{
+    text-align:right;
+}
+.accessories-card{
+    background-color:white;
+    border-radius: 12px;
+}
+.accessories-card-heading{
+    font-size:28px;
+    font-weight:500;
+ 
+    font-family:"Bree Serif";
+}
+.accessories-card-paragraph{
+    font-size:14px;
+    font-weight:500;
+    font-family:"Bree Serif";
+    color:#8A8A8A;
+}
+.accessories-card:hover{
+    transform: scale(1.1);
+
+}
+.accessories-actual-price{
+    font-weight:700;
+    text-decoration: line-through;
+}
+
+.accessories-offer-price{
+    font-weight:700;
+}
+.watch-key-features{
+    text-align:left;
+    color:#323f4b;
+    font-size:14px;
+    font-weight:700;
+}
+.power-image-acess{
+    width:35%;
+    height:35vh;
+}

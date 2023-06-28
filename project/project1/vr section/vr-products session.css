@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.vrw-products-section-heading {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.vrw-products-section-item1 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-img.png');
+    height: 75vh;
+    background-size: cover;
+}
+
+.vrw-products-section-item2 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-with-controllers-img.png');
+    height: 75vh;
+    background-size: cover;
+}
+
+.vrw-products-section-item-heading {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.vrw-products-section-item-paragraph {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.vrw-products-section-item-button {
+    background-color: transparent;
+    height: 36px;
+    width: 120px;
+    color: #ffffff;
+    border-color: white;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.vrw-products-section-button {
+    background-color: #1754a1;
+    height: 40px;
+    width: 120px;
+    color: #ffffff;
+    border-color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    border-width: 0;
+}
